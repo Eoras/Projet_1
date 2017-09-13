@@ -1,13 +1,4 @@
-<?php
-function chargerClasse($classe)
-{
-    require("class/" . $classe . ".php");
-}
-
-spl_autoload_register('chargerClasse');
-
-session_start();
-?>
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -27,14 +18,14 @@ session_start();
 
     <title>Wild Games</title>
 
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/style.css" >
-    <link rel="stylesheet" href="css/bootstrap.css" >
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
 </head>
 
-<body class="container-fluid">
+<body>
+
+<div class="container-fluid">
 
     <nav class="navbar navbar-default">
         <div class="container-fluid">
@@ -62,98 +53,39 @@ session_start();
         </div><!-- /.container-fluid -->
     </nav>
 
+
     <!-- TRAVAIL PIERRE -->
     <section id="pierre">
 
         <?php
-            $ligne_1 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1";
-            $ligne_2 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1";
-            $ligne_3 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-2 col-lg-1";
-            $ligne_4 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1";
+
+        for ($a = 1; $a <= 8; $a++) {
+
+            //  Affiche la row
+            if ($a == 1) {
+                echo '<div class="row">';
+            }
+
+            // Affiche le contenu
+            echo ' 
+                <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="thumbnail thub">
+                        <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_' . $a . '" />
+                        <p>BDD descriptif ' . $a . '</p>
+                    </div>
+
+                </div> ';
+
+
+            // Ferme la row
+            if ($a == 8) {
+                echo '</div>';
+            }
+
+
+        }
+
         ?>
-
-        <div class="row">
-
-            <div class="<?php echo $ligne_1; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_1" />
-            </div>
-
-            <div class="<?php echo $ligne_2; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_2" />
-            </div>
-
-            <div class="<?php echo $ligne_3; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
-            </div>
-
-            <div class="<?php echo $ligne_4; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-2 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-        </div>
-
-
-
-
-        <div class="row ma">
-
-            <div class="<?php echo $ligne_1; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_1" />
-            </div>
-
-            <div class="<?php echo $ligne_2; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_2" />
-            </div>
-
-            <div class="<?php echo $ligne_3; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
-            </div>
-
-            <div class="<?php echo $ligne_4; ?>">
-                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
-            </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-2 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
-                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-            </div>
-
-        </div>
 
     </section>
 
@@ -164,6 +96,7 @@ session_start();
 
     </section>
 
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

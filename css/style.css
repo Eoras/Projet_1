@@ -1,169 +1,19 @@
 
 /* **************** */
-/*		DIVERS		*/
+/*	STRUCTURE HTML	*/
 /* **************** */
-
-.center				{ 	text-align: center;				}
-.bottom				{	text-align: bottom;				}
-.right				{	text-align: right;				}
-
-.cadrer				{	border:1px solid red; 			}
-.cadrev				{	border:1px solid green; 		}
-.cadreb				{	border:1px solid blue;			}
-.cadrej				{	border:1px solid yellow;		}
-
-.floatbottom			{	float : bottom;					}
-.floatright			{	float : right;					}
-.floatcenter		{	float : center;					}
-
-.conteneur			{	display: flex;					}
-
-.marg_top_10		{	margin-top: 10px;				}
-.marg_top_20		{	margin-top: 20px;				}
-.marg_top_30		{	margin-top: 30px;				}
-.marg_top_40		{	margin-top: 40px;				}
-.marg_top_50		{	margin-top: 50px;				}
-
-.marg_bottom_10		{	margin-bottom: 10px;				}
-.marg_bottom_20		{	margin-bottom: 20px;				}
-.marg_bottom_30		{	margin-bottom: 30px;				}
-.marg_bottom_40		{	margin-bottom: 40px;				}
-.marg_bottom_50		{	margin-bottom: 50px;				}
-
-.marg_bottom_10		{	margin-bottom: 10px;				}
-.marg_bottom_20		{	margin-bottom: 20px;				}
-.marg_bottom_30		{	margin-bottom: 30px;				}
-.marg_bottom_40		{	margin-bottom: 40px;				}
-.marg_bottom_50		{	margin-bottom: 50px;				}
-
-.hidden				{	display: none;					}
-.cache 				{	background-image: none;			}
-.espace				{	letter-spacing: 45px;			}
-
-.taille8 			{	font-size: 8px;					}
-.taille9 			{	font-size: 9px; 				}
-.taille10 			{	font-size: 10px; 				}
-.taille11			{	font-size: 11px; 				}
-.taille12			{	font-size: 12px; 				}
-.taille13 			{	font-size: 13px; 				}
-.taille14 			{	font-size: 14px; 				}
-.taille15 			{	font-size: 15px; 				}
-.taille16 			{	font-size: 16px; 				}
-.taille17 			{	font-size: 17px; 				}
-.taille18			{	font-size: 18px; 				}
-.taille19 			{	font-size: 19px; 				}
-.taille20 			{	font-size: 20px; 				}
-.taille21 			{	font-size: 21px; 				}
-.taille22			{	font-size: 22px; 				}
-.taille23 			{	font-size: 23px; 				}
-.taille24 			{	font-size: 24px; 				}
-.taille25 			{	font-size: 25px; 				}
-
-.barre 				{	text-decoration: line-through;	}
-.souligne			{   text-decoration: underline;		}
-.gras				{	font-weight: bold;				}
-.italique			{	font-style : italic;			}
-
-.longueur10  		{	width: 10px;					}
-.longueur15  		{	width: 15px;					}
-.longueur20  		{	width: 20px;					}
-.longueur25 		{	width: 25px;					}
-.longueur30			{	width: 30px;					}
-.longueur35 		{	width: 35px;					}
-.longueur40 		{	width: 40px;					}
-.longueur45 		{	width: 45px;					}
-.longueur50			{	width: 50px;					}
-.longueur55 		{	width: 55px;					}
-.longueur60 		{	width: 60px;					}
-
-.hauteur100        {	height: 100px;	    			}
-.hauteur150        {	height: 150px;	    			}
-.hauteur200        {	height: 200px;	    			}
-
-.hauteurMin100     {	min-height: 100px;	    		}
-.hauteurMin150     {	min-height: 150px;	    		}
-.hauteurMin200     {	min-height: 200px;	    		}
-
-.hauteurMax100     {	max-height: 100px;	    		}
-.hauteurMax150     {	max-height: 150px;	    		}
-.hauteurMax200     {	max-height: 200px;	    		}
-
-.noir				{	color: black; 					}
-.vert				{	color: green; 					}
-.violet				{	color: purple; 					}
-.bleu				{	color: blue; 					}
-.gris				{	color: grey; 					}
-.jaune				{	color: yellow; 					}
-.marron				{	color: brown;					}
-.rouge	 			{	color: red; 					}
-.jaune	 			{	color: yellow; 					}
-.blanc	 			{	color: white; 					}
-
-.fondnoir			{	background-color: black; 		}
-.fondvert			{	background-color: green; 		}
-.fondviolet			{	background-color: purple; 		}
-.fondbleu			{	background-color: blue; 		}
-.fondgris			{	background-color: grey; 		}
-.fondjaune			{	background-color: yellow; 		}
-.fondmarron			{	background-color: brown;		}
-.fondrouge	 		{	background-color: red; 			}
-.fondjaune	 		{	background-color: yellow; 		}
-.fondblanc	 		{	background-color: white; 		}
-
-.pointeur 			{	cursor: pointer;				}
-.pointeur_base		{	cursor: auto;					}
-
-.ascenseur			{	overflow: scroll;				}
-
-.pos_r				{	position: relative;				}
-.pos_a				{	position: absolute;				}
-
-.b_collapse			{	border-collapse: collapse;		}
-
-.hauteur_1			{	z-index: 1;						}
-
-.casse_mot			{	word-wrap: break-word;			}
-.deborde			{	overflow: auto;					}
-
-
-
-/* **************** */
-/*		HTML		*/
-/* **************** */
-	body
-	{
-		padding-top: 10px;
-	}
-
-	[class*="col-"], footer {
-		background-color: lightgreen;
-		border: 2px solid black;
-		border-radius: 6px;
-		line-height: 40px;
-		text-align: center;
-	}
-
-
 
     html
     {
-        margin:0;
-        padding:0;
         background: url(../images/background1.jpg) no-repeat center fixed;
         -webkit-background-size: cover; /* pour anciens Chrome et Safari */
         background-size: cover; /* version standardisée */
     }
 
-    body
-    {
-
-    }
-
-    h1
-    {
-
-    }
-
+	body
+	{
+		padding-top: 10px;
+	}
 
     .nav>li
     {
@@ -182,33 +32,6 @@
     {
         display: inline-block;
         float: none;
-        margin: 0;
-    }
-
-
-    nav
-    {
-
-    }
-
-    header
-    {
-
-    }
-
-    section
-    {
-
-    }
-
-    aside
-    {
-
-    }
-
-    footer
-    {
-
     }
 
 
@@ -227,10 +50,21 @@
         padding: 10px;
     }
 
-    #pierre div
-    {
-        min-width: 200px;
+    .thub {
+        max-width: 400px;
+        border-radius: 6px;
+        line-height: 40px;
+        text-align: center;
     }
+
+
+    .thub p
+    {
+        background-color: lightgreen;
+        border: 1px solid black;
+
+    }
+
 
 
 
@@ -240,52 +74,6 @@
     /* Steven */
 
 
-
-
-
-
-
-
-
-/* **************** */
-/*		DECORATION	*/
-/* **************** */
-
-/*		CLIGNOTE	*/
-.blink_me {
-    -webkit-animation-name: blinker;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-
-    -moz-animation-name: blinker;
-    -moz-animation-duration: 1s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-
-    animation-name: blinker;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@-moz-keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@-webkit-keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
 
 
 /* **************** */
@@ -305,44 +93,3 @@
     src: url('../fonts/hacked.woff') format('woff');
     src: url('../fonts/hacked.woff2') format('woff2');
 }
-
-
-
-/* **************** */
-/*		INFO	    */
-/* **************** */
-
-/*
-
-padding : indique la taille de la marge intérieure. À exprimer en général en pixels (px).
-margin : indique la taille de la marge extérieure. Là encore, on utilise le plus souvent des pixels.
-
-margin-top : marge extérieure en haut ;
-margin-bottom : marge extérieure en bas ;
-margin-bottom : marge extérieure à gauche ;
-margin-right : marge extérieure à droite.
-
-width: On a indiqué une largeur
-margin: auto :On peut donc demander à ce que le bloc soit centré avec auto
-
-
-Si vous voulez que le texte ne dépasse pas des limites du paragraphe, il va falloir utiliser la propriété overflow.
-overflow, overflow-x(y) :
-    visible		(par défaut) : si le texte dépasse les limites de taille, il reste visible et sort volontairement du bloc.
-    hidden		si le texte dépasse les limites, il sera tout simplement coupé. On ne pourra pas voir tout le texte.
-    scroll		là encore, le texte sera coupé s'il dépasse les limites. Sauf que cette fois, le navigateur mettra en place des barres de défilement pour qu'on puisse lire l'ensemble du texte. C'est un peu comme un cadre à l'intérieur de la page.
-    auto		c'est le mode « pilote automatique ». En gros, c'est le navigateur qui décide de mettre ou non des barres de défilement (il n'en mettra que si c'est nécessaire). C'est la valeur que je conseille d'utiliser le plus souvent.
-    -moz-scrollbars-horizontal;
-
-
-Si vous voulez, vous pouvez demander à ce que les blocs aillent à la ligne lorsqu'ils n'ont plus la place
-flex-wrap :
-    nowrap : pas de retour à la ligne (par défaut)
-    wrap : les éléments vont à la ligne lorsqu'il n'y a plus la place
-    wrap-reverse : les éléments vont à la ligne lorsqu'il n'y a plus la place en sens inverse
-
-Filtre image
-    -webkit-filter: brightness(10);
-    filter: brightness(10);
-
-*/
