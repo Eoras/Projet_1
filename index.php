@@ -65,21 +65,28 @@ session_start();
     <!-- TRAVAIL PIERRE -->
     <section id="pierre">
 
+        <?php
+            $ligne_1 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1";
+            $ligne_2 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1";
+            $ligne_3 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-2 col-lg-1";
+            $ligne_4 = "col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1";
+        ?>
+
         <div class="row">
 
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+            <div class="<?php echo $ligne_1; ?>">
                 <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_1" />
             </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+            <div class="<?php echo $ligne_2; ?>">
                 <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_2" />
             </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+            <div class="<?php echo $ligne_3; ?>">
                 <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
             </div>
 
-            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+            <div class="<?php echo $ligne_4; ?>">
                 <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
             </div>
 
@@ -95,7 +102,50 @@ session_start();
                 <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
 
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-2 col-lg-1">
+                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
             <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+        </div>
+
+
+
+
+        <div class="row ma">
+
+            <div class="<?php echo $ligne_1; ?>">
+                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_1" />
+            </div>
+
+            <div class="<?php echo $ligne_2; ?>">
+                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_2" />
+            </div>
+
+            <div class="<?php echo $ligne_3; ?>">
+                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
+            </div>
+
+            <div class="<?php echo $ligne_4; ?>">
+                <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_" />
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-1 col-lg-1">
+                <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+
+            <div class="col-xs-6 col-sm-4 col-md-3 col-lg-offset-2 col-lg-1">
                 <p>"Lorem ipsum dolor sit amet, consectetnim ad minim veniam, roident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
 

@@ -4,7 +4,7 @@
 /* **************** */
 
 .center				{ 	text-align: center;				}
-.left				{	text-align: left;				}
+.bottom				{	text-align: bottom;				}
 .right				{	text-align: right;				}
 
 .cadrer				{	border:1px solid red; 			}
@@ -12,7 +12,7 @@
 .cadreb				{	border:1px solid blue;			}
 .cadrej				{	border:1px solid yellow;		}
 
-.floatleft			{	float : left;					}
+.floatbottom			{	float : bottom;					}
 .floatright			{	float : right;					}
 .floatcenter		{	float : center;					}
 
@@ -23,6 +23,18 @@
 .marg_top_30		{	margin-top: 30px;				}
 .marg_top_40		{	margin-top: 40px;				}
 .marg_top_50		{	margin-top: 50px;				}
+
+.marg_bottom_10		{	margin-bottom: 10px;				}
+.marg_bottom_20		{	margin-bottom: 20px;				}
+.marg_bottom_30		{	margin-bottom: 30px;				}
+.marg_bottom_40		{	margin-bottom: 40px;				}
+.marg_bottom_50		{	margin-bottom: 50px;				}
+
+.marg_bottom_10		{	margin-bottom: 10px;				}
+.marg_bottom_20		{	margin-bottom: 20px;				}
+.marg_bottom_30		{	margin-bottom: 30px;				}
+.marg_bottom_40		{	margin-bottom: 40px;				}
+.marg_bottom_50		{	margin-bottom: 50px;				}
 
 .hidden				{	display: none;					}
 .cache 				{	background-image: none;			}
@@ -217,7 +229,6 @@
 
     #pierre div
     {
-        padding: 10px;
         min-width: 200px;
     }
 
@@ -308,7 +319,7 @@ margin : indique la taille de la marge extérieure. Là encore, on utilise le pl
 
 margin-top : marge extérieure en haut ;
 margin-bottom : marge extérieure en bas ;
-margin-left : marge extérieure à gauche ;
+margin-bottom : marge extérieure à gauche ;
 margin-right : marge extérieure à droite.
 
 width: On a indiqué une largeur
