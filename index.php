@@ -61,6 +61,26 @@
 
         for ($a = 1; $a <= 8; $a++) {
 
+            // Variables (en attente de BDD)
+            if ($a == 1) {
+                $src_img = 'images/vignettes/arcade_1.jpg';
+            } elseif ($a == 2) {
+                $src_img = 'images/vignettes/arcade_2.jpg';
+            } elseif ($a == 3) {
+                $src_img = 'images/vignettes/arcade_3.jpg';
+            } elseif ($a == 4) {
+                $src_img = 'images/vignettes/babyfoot_1.jpg';
+            } elseif ($a == 5) {
+                $src_img = 'images/vignettes/babyfoot_2.jpg';
+            } elseif ($a == 6) {
+                $src_img = 'images/vignettes/billard_1.jpg';
+            } elseif ($a == 7) {
+                $src_img = 'images/vignettes/palet_1.jpg';
+            } elseif ($a == 8) {
+                $src_img = 'images/vignettes/pingpong_1.jpg';
+            }
+
+
             //  Affiche la row
             if ($a == 1) {
                 echo '<div class="row">';
@@ -68,21 +88,19 @@
 
             // Affiche le contenu
             echo ' 
-                <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail thub">
-                        <img src="http://via.placeholder.com/150x150" alt="descriptif_activite_' . $a . '" />
-                        <p>BDD descriptif ' . $a . '</p>
-                    </div>
+            <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="thumbnail thub">
+                    <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
+                    <h3>BDD descriptif ' . $a . '</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
 
-                </div> ';
-
+            </div> ';
 
             // Ferme la row
             if ($a == 8) {
                 echo '</div>';
             }
-
-
         }
 
         ?>
