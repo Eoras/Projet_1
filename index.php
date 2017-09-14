@@ -56,7 +56,7 @@
 
 <!-- FIN PARTIE STEVEN PREMIERE PAGE --> 
 
-<div class="container-fluid hidden-lg">
+<div class="container-fluid">
 
     <!-- TRAVAIL PIERRE -->
     <section id="pierre">
