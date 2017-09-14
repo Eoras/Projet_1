@@ -59,16 +59,13 @@
                 $description = 'Description 8';
             }
 
-
-
-
             //  Affiche la row
             if ($a == 1) {
                 echo '<div class="row">';
             }
 
             // Affiche le contenu
-            echo ' 
+            echo '
             <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <div class="thumbnail thub">
                     <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
@@ -76,7 +73,7 @@
                     <p> ' . $description . '</p>
                 </div>
 
-            </div> ';
+            </div>';
 
             // Ferme la row
             if ($a == 8) {
