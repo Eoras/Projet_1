@@ -37,7 +37,7 @@
     text-shadow: 2px 2px 4px black;
 }
 
-.nav>li
+.nav-a>li
 {
     position: relative;
     padding: 70px 15px;
@@ -60,62 +60,43 @@
 
 .accueil
 {
-     margin-top: 150px;
+    margin-top: 150px;
 }
 
-@media (max-width: 768px) 
-    
-    {     
+@media (max-width: 768px)
+
+{
     .imglogo
-        {
-            margin-top: 8vh;  
-        }
-    
-    .nav>li
-        {
+    {
+        margin-top: 8vh;
+    }
+
+    .nav-a>li
+    {
         position: relative;
         padding: 5px 0px;
         font-size: 30px;
         color: white;
-        }
+    }
 
-    } /* FIN DU MEDIA */
-
-
-
-
-.navbar-nav
-{
-    display: inline-block;
-    float: none;
-    margin: 0;
+    .navbar-collapse
+    {
+        border: none;
+    }
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form
+@media (min-width: 768px) and (max-width: 1024px)
+
 {
-    border-color: transparent; 
-}
-
-.accueil
-{
-     margin-top: 150px;
-}
-
-@media (max-width: 768px) 
-{ 
-
-    .imglogo
-        {
-        margin-top: 15vh;  
-        }
-
-    .nav>li
-        {
+    .nav-a>li
+    {
         position: relative;
-        padding: 5px 0px;
-        font-size: 30px;
+        padding: 20px 0px;
+        font-size: 35px;
         color: white;
-        }
+    }
+
+
 
 } /* FIN DU MEDIA */
 
@@ -154,25 +135,99 @@
 
 /* *_*_*_*_*_* FIN CSS PIERRE *_*_*_*_*_* */
 
+
+
+/* ----- CSS PAUL POUR SECTION PIERRE ----- */
+
+.backgroundgames {
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    background: url(../images/salle-enfants-01-jpg.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+
+.marginnavb {
+    margin-top: 100px;
+}
+
+.imgarcade{
+    width: 300px;
+}
+
+.thumbnailgame {
+    background-color: rgba(255,255,255,0.8);
+}
+
+.thumbnailgame p,h3
+{
+    color: black;
+}
 /* ----- CSS PAUL ----- */
 
 .backgroundsnack {
 	min-height: 100vh;
     margin:0;
     padding:0;
-	background: url(../images/background3.jpg) no-repeat center fixed;
+	background: url(../images/snack/Restaurant_Blur.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
-}
-
-.test {
-    border: solid 0px red;
-    backgroud: blue;
 }
 
 .thumb{
     height: 50px;
 }
 
+.panel .panel-heading, .panel-default {
+    background-color: rgba(255,255,255,0.5);
+}
+
+.nav-transparent-b {
+
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    text-align: center;
+    font-family: "bebas";
+    text-shadow: 2px 2px 4px black;
+}
+
+.nav-b>li
+{
+    position: relative;
+    padding: 10px 15px;
+    font-size: 40px;
+    color: white;
+}
+
+.navsticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    margin-bottom: -95px;
+}
+
+
+@media (max-width: 768px)
+
+{
+    .thumbnail-u {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+
+{
+    .nav-b>li
+    {
+        font-size:28px;
+    }
+}
+
+.scrollable-section {
+    border-bottom:1px solid #666;
+}
 /* ----- FIN CSS PAUL ----- */
  /* FIN DU MEDIA */
