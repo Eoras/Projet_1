@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* *_*_*_*_*_* DEBUT CSS STEVEN *_*_*_*_*_* */
 @font-face
 {
@@ -17,16 +18,14 @@
     src: url('../fonts/Bebas.woff2') format('woff2');
 }
 
-.fondsite
-{
-    min-height: 100vh;
+.fondsite {
+	min-height: 100vh;
     margin:0;
     padding:0;
-    background: url(../images/background4.jpg) no-repeat center fixed;
+background: url(../images/background4.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
-
 
 .nav-transparent {
     background: rgba(255, 255, 255, 0);
@@ -34,8 +33,6 @@
     text-align: center;
     font-family: "bebas";
     text-shadow: 2px 2px 4px black;
-    
-
 }
 
 .nav>li
@@ -48,6 +45,12 @@
 
 .navbar-default .navbar-nav>li>a
 {
+    padding: 70px 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
     text-decoration : none;
     color: white;
 }
@@ -84,7 +87,7 @@
         color: white;
         }
 
-    } /* FIN DU MEDIA */
+    }
 
 /* *_*_*_*_*_* FIN CSS STEVEN *_*_*_*_*_* */
 
@@ -120,3 +123,33 @@
 
 /* *_*_*_*_*_* FIN CSS PIERRE *_*_*_*_*_* */
 
+=======
+
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.test {
+    border: solid 0px red;
+    backgroud: blue;
+}
+
+.thumb{
+    height: 50px;
+}
+
+/* ----- FIN CSS PAUL ----- */
+
+/* ----- CSS PAUL ----- */
+.backgroundsnack {
+	min-height: 100vh;
+    margin:0;
+    padding:0;
+	background: url(../images/fond_section3.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+}
+
+ /* FIN DU MEDIA */
