@@ -29,11 +29,12 @@
 }
 
 .nav-transparent {
+
     background: rgba(255, 255, 255, 0);
     border: none;
     text-align: center;
     font-family: "bebas";
-    text-shadow: 2px 2px 4px black; 
+    text-shadow: 2px 2px 4px black;
 }
 
 .nav>li
@@ -45,16 +46,43 @@
 }
 
 .navbar-default .navbar-nav>li>a
-{   
-    padding: 70px 20px;
-    font-size: 30px;
-    color: white;
-}
-
-.navbar-default .navbar-nav>li>a {
+{
     text-decoration : none;
     color: white;
 }
+
+.navbar-nav
+{
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+
+.accueil
+{
+     margin-top: 150px;
+}
+
+@media (max-width: 768px) 
+    
+    {     
+    .imglogo
+        {
+            margin-top: 8vh;  
+        }
+    
+    .nav>li
+        {
+        position: relative;
+        padding: 5px 0px;
+        font-size: 30px;
+        color: white;
+        }
+
+    } /* FIN DU MEDIA */
+
+
+
 
 .navbar-nav
 {
@@ -73,11 +101,12 @@
      margin-top: 150px;
 }
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) 
+{ 
 
     .imglogo
         {
-            margin-top: 8vh;  
+        margin-top: 15vh;  
         }
 
     .nav>li
@@ -88,7 +117,7 @@
         color: white;
         }
 
-    } /* FIN DU MEDIA */
+} /* FIN DU MEDIA */
 
 /* *_*_*_*_*_* FIN CSS STEVEN *_*_*_*_*_* */
 
