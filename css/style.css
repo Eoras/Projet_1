@@ -29,7 +29,7 @@
 }
 
 .nav-transparent {
-    background: rgba(255, 255, 255, 0);  /* a supprimer */
+    background: rgba(255, 255, 255, 0);
     border: none;
     text-align: center;
     font-family: "bebas";
@@ -38,7 +38,7 @@
 
 .nav>li
 {
-    position: relative; /* a supprimer */
+    position: relative;
     padding: 70px 15px;
     font-size: 40px;
     color: white;
@@ -79,7 +79,7 @@
         {
             margin-top: 8vh;  
         }
-    
+
     .nav>li
         {
         position: relative;
@@ -131,7 +131,7 @@
 	min-height: 100vh;
     margin:0;
     padding:0;
-	background: url(../images/fond_section3.jpg) no-repeat center fixed;
+	background: url(../images/background3.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
@@ -144,5 +144,6 @@
 .thumb{
     height: 50px;
 }
+
 /* ----- FIN CSS PAUL ----- */
  /* FIN DU MEDIA */

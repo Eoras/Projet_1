@@ -49,14 +49,14 @@
 
     <div class="container accueil">
         <section class="row">
-            <div class="col-xs-12"><img src="../images/Wild Games7.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
+            <div class="col-xs-12"><img src="images/Wild Games7.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
         </section>
     </div>
 </div>
 
 <!-- FIN PARTIE STEVEN PREMIERE PAGE --> 
 
-<div class="container-fluid">
+<div class="container-fluid hidden">
 
     <!-- TRAVAIL PIERRE -->
     <section id="pierre">
@@ -126,109 +126,222 @@
 <!-- DEBUT DU CODE DE PAUL -->
 
 <div class="container-fluid backgroundsnack">
-    <div class="container-fluid">
 
-        <div class="row">
+    <div class="row">
 
-            <div class="col-lg-3 hidden-md test" id="snackbar">
-                <a href="#" class="thumbnail">
-                    <img src="https://goo.gl/yynDFZ" alt="test">
-                </a>
-            </div>
+        <div class="col-lg-3 hidden-md" id="snackbar">
+            <a href="#" class="thumbnail">
+                <img src="https://goo.gl/yynDFZ" alt="test">
+            </a>
+        </div>
 
-            <div class="col-md-9 col-lg-6 test">
-                <div class="panel panel-default">
-                    <div class="panel-heading" ><span class="glyphicon glyphicon-glass">&nbsp;</span>SNACK BAR MENU</div>
+        <div class="col-md-9 col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading" ><span class="glyphicon glyphicon-glass">&nbsp;</span>SNACK BAR MENU</div>
 
-                    <div class="panel-body">
+                <div class="panel-body">
 
-                        <div class="row">
+                    <div class="row">
 
-                            <div class="col-md-6 test">
-                                <div class="panel panel-default">
-                                    <!-- Default panel contents -->
-                                    <div class="panel-heading"></div>
-                                    <table class="table">
-                                        <th>Nos Burgers</th><th>Prix</th>
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <!-- Default panel contents -->
+                                <table class="table">
+                                    <th>Nos Cocktail (sans alcool)</th><th>Prix</th>
 
-                                        <tr><td>
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <img class="media-object thumb" src="images/burgers/burger1.png" alt="burger">
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h5 class="media-heading">Burger 1</h5>
-                                                        <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
-                                                    </div>
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/snack/cocktail1.png" alt="burger">
                                                 </div>
-                                            </td><td>16,10€</td></tr>
-
-
-                                        <tr><td>
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <img class="media-object thumb" src="images/burgers/burger2.png" alt="burger">
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h5 class="media-heading">Burger 2</h5>
-                                                        <p>Pain rustique, Steaks hachés viande bovine française , Raclette, Beignets d'oignon, Salade, Sauce Barbecue</p>
-                                                    </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Cocktail 1</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
                                                 </div>
-                                            </td><td>6,10€</td></tr>
+                                            </div>
+                                        </td><td>16,10€</td></tr>
 
-                                        <tr><td>
-                                                <div class="media">
-                                                    <div class="media-left">
-                                                        <img class="media-object thumb" src="images/burgers/burger3.png" alt="burger">
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <h5 class="media-heading">Burger 3</h5>
-                                                        <p>Pain rustique, 2 Aiguillettes de Cabillaud croustillantes, Cheddar fondu, Oignons grillés, Salade, Sauce béarnaise</p>
-                                                    </div>
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/snack/cocktail2.png" alt="burger">
                                                 </div>
-                                            </td><td>84,50€</td></tr>
-                                    </table>
-                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Cocktail 2</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française , Raclette, Beignets d'oignon, Salade, Sauce Barbecue</p>
+                                                </div>
+                                            </div>
+                                        </td><td>6,10€</td></tr>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/snack/cocktail3.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Cocktail 3</h5>
+                                                    <p>Pain rustique, 2 Aiguillettes de Cabillaud croustillantes, Cheddar fondu, Oignons grillés, Salade, Sauce béarnaise</p>
+                                                </div>
+                                            </div>
+                                        </td><td>84,50€</td></tr>
+                                </table>
                             </div>
+                        </div>
 
-                            <div class="col-md-6 test">
-                                <div class="panel panel-default">
-                                    <!-- Default panel contents -->
-                                    <div class="panel-heading">Nos Pizza</div>
-                                    <table class="table">
-                                        <th></th><th>Prix</th>
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <!-- Default panel contents -->
+                                <table class="table">
+                                    <th>Nos Pizza</th><th>Prix</th>
 
-                                        <tr><td>Pizza 1
-                                                <br/><p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p></td>
-                                            <td>16,10€ </td></tr>
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/pizza/pizza1.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Pizza 1</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                    </td><td>16,10€</td></tr>
 
-                                        <tr><td>Pizza 2
-                                                <br/><p>Pain rustique, Steaks hachés viande bovine française , Raclette, Beignets d'oignon, Salade, Sauce Barbecue</p></td>
-                                            <td>6,10€ </td></tr>
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/pizza/pizza2.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Pizza 2</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                    </td><td>16,10€</td></tr>
 
-                                        <tr><td>Pizza 3
-                                                <br/><p>Pain rustique, 2 Aiguillettes de Cabillaud croustillantes, Cheddar fondu, Oignons grillés, Salade, Sauce béarnaise</p></td>
-                                            <td>84,50€ </td></tr>
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/pizza/pizza3.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Pizza 3</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                    </td><td>16,10€</td></tr>
 
-                                    </table>
-                                </div>
+                                </table>
                             </div>
-
                         </div>
 
                     </div>
 
-                    <div class="panel-footer">Footer de mon panel</div>
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <!-- Default panel contents -->
+                                <table class="table">
+                                    <th>Nos Burgers</th><th>Prix</th>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/burgers/burger1.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Burger 1</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                        </td><td>16,10€</td></tr>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/burgers/burger2.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Burger 2</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française , Raclette, Beignets d'oignon, Salade, Sauce Barbecue</p>
+                                                </div>
+                                            </div>
+                                        </td><td>6,10€</td></tr>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/burgers/burger3.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Burger 3</h5>
+                                                    <p>Pain rustique, 2 Aiguillettes de Cabillaud croustillantes, Cheddar fondu, Oignons grillés, Salade, Sauce béarnaise</p>
+                                                </div>
+                                            </div>
+                                        </td><td>84,50€</td></tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="panel panel-default">
+                                <!-- Default panel contents -->
+                                <table class="table">
+                                    <th>Nos Pizza</th><th>Prix</th>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/pizza/pizza1.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Pizza 1</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                        </td><td>16,10€</td></tr>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/pizza/pizza2.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Pizza 2</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                        </td><td>16,10€</td></tr>
+
+                                    <tr><td>
+                                            <div class="media">
+                                                <div class="media-left">
+                                                    <img class="media-object thumb" src="images/pizza/pizza3.png" alt="burger">
+                                                </div>
+                                                <div class="media-body">
+                                                    <h5 class="media-heading">Pizza 3</h5>
+                                                    <p>Pain rustique, Steaks hachés viande bovine française, Cheddar fondu, Bacon, Salade, Sauce tartare</p>
+                                                </div>
+                                            </div>
+                                        </td><td>16,10€</td></tr>
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+
+                <div class="panel-footer"><i>Les prix sont affichés en TTC.</i></div>
             </div>
+        </div>
 
-            <div class="col-md-3 test">
-                <a href="#" class="thumbnail">
-                    <img src="https://goo.gl/yynDFZ" alt="test">
-                </a>
-            </div>
-
-
+        <div class="col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="https://goo.gl/yynDFZ" alt="test">
+            </a>
+        </div>
     </div>
 </div>
 <!-- FIN DU CODE DE PAUL -->
