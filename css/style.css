@@ -42,7 +42,7 @@
 }
 
 .test {
-    border: solid 2px red;
+    border: solid 0px red;
     backgroud: blue;
 }
 
