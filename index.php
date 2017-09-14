@@ -10,9 +10,9 @@
     <title>Wild Games</title>
 
 	<!-- Custom styles for this template -->
-    	<link rel="stylesheet" href="css/style.css">
-	<!-- Bootstrap core CSS -->    
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap core CSS -->    
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 

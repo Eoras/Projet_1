@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 /* *_*_*_*_*_* DEBUT CSS STEVEN *_*_*_*_*_* */
+
 @font-face
 {
     font-family: 'weekend';
@@ -18,33 +18,34 @@
     src: url('../fonts/Bebas.woff2') format('woff2');
 }
 
-.fondsite {
-	min-height: 100vh;
+.fondsite
+{
+    min-height: 100vh;
     margin:0;
     padding:0;
-background: url(../images/background4.jpg) no-repeat center fixed;
+    background: url(../images/background4.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
 
 .nav-transparent {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);  /* a supprimer */
     border: none;
     text-align: center;
     font-family: "bebas";
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px black; 
 }
 
 .nav>li
 {
-    position: relative;
+    position: relative; /* a supprimer */
     padding: 70px 15px;
     font-size: 40px;
     color: white;
 }
 
 .navbar-default .navbar-nav>li>a
-{
+{   
     padding: 70px 20px;
     font-size: 30px;
     color: white;
@@ -87,9 +88,10 @@ background: url(../images/background4.jpg) no-repeat center fixed;
         color: white;
         }
 
-    }
+    } /* FIN DU MEDIA */
 
 /* *_*_*_*_*_* FIN CSS STEVEN *_*_*_*_*_* */
+
 
 /* *_*_*_*_*_* DEBUT CSS PIERRE *_*_*_*_*_* */
     #pierre
@@ -123,12 +125,15 @@ background: url(../images/background4.jpg) no-repeat center fixed;
 
 /* *_*_*_*_*_* FIN CSS PIERRE *_*_*_*_*_* */
 
-=======
+/* ----- CSS PAUL ----- */
 
-}
-
-.navbar-brand img {
-    width: 100px;
+.backgroundsnack {
+	min-height: 100vh;
+    margin:0;
+    padding:0;
+	background: url(../images/fond_section3.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
 }
 
 .test {
@@ -139,17 +144,5 @@ background: url(../images/background4.jpg) no-repeat center fixed;
 .thumb{
     height: 50px;
 }
-
 /* ----- FIN CSS PAUL ----- */
-
-/* ----- CSS PAUL ----- */
-.backgroundsnack {
-	min-height: 100vh;
-    margin:0;
-    padding:0;
-	background: url(../images/fond_section3.jpg) no-repeat center fixed;
-    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-    background-size: cover; /* version standardisée */
-}
-
  /* FIN DU MEDIA */
