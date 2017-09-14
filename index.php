@@ -17,8 +17,8 @@
 
     <title>Wild Games</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
 
 </head>
 
@@ -53,14 +53,80 @@
         </div><!-- /.container-fluid -->
     </nav>
 
-<<<<<<< HEAD
     <div class="container accueil">
         <section class="row">
             <div class="col-xs-12"><img src="../images/Wild Games7.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
         </section>
     </div>
 </div>
+
 <!-- FIN PARTIE STEVEN PREMIERE PAGE --> 
+
+<div class="container-fluid">
+
+    <!-- TRAVAIL PIERRE -->
+    <section id="pierre">
+
+        <?php
+
+        for ($a = 1; $a <= 8; $a++) {
+
+            // Variables (en attente de BDD)
+            if ($a == 1) {
+                $src_img = 'images/vignettes/arcade_1.jpg';
+                $description = 'Description 1';
+            } elseif ($a == 2) {
+                $src_img = 'images/vignettes/arcade_2.jpg';
+                $description = 'Description 2';
+            } elseif ($a == 3) {
+                $src_img = 'images/vignettes/arcade_3.jpg';
+                $description = 'Description 3';
+            } elseif ($a == 4) {
+                $src_img = 'images/vignettes/babyfoot_1.jpg';
+                $description = 'Description 4';
+            } elseif ($a == 5) {
+                $src_img = 'images/vignettes/babyfoot_2.jpg';
+                $description = 'Description 5';
+            } elseif ($a == 6) {
+                $src_img = 'images/vignettes/billard_1.jpg';
+                $description = 'Description 6';
+            } elseif ($a == 7) {
+                $src_img = 'images/vignettes/palet_1.jpg';
+                $description = 'Description 7';
+            } elseif ($a == 8) {
+                $src_img = 'images/vignettes/pingpong_1.jpg';
+                $description = 'Description 8';
+            }
+
+            //  Affiche la row
+            if ($a == 1) {
+                echo '<div class="row">';
+            }
+
+            // Affiche le contenu
+            echo '
+            <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="thumbnail thub">
+                    <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
+                    <h3>BDD descriptif ' . $a . '</h3>
+                    <p> ' . $description . '</p>
+                </div>
+
+            </div>';
+
+            // Ferme la row
+            if ($a == 8) {
+                echo '</div>';
+            }
+        }
+
+        ?>
+
+    </section>
+
+    <!-- Fin Pierre -->
+
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

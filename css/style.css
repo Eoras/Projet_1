@@ -87,3 +87,36 @@
     } /* FIN DU MEDIA */
 
 /* *_*_*_*_*_* FIN CSS STEVEN *_*_*_*_*_* */
+
+/* *_*_*_*_*_* DEBUT CSS PIERRE *_*_*_*_*_* */
+    #pierre
+    {
+        height: auto;
+    }
+
+    #pierre img
+    {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    .thub
+    {
+        text-align: center;
+        max-width: 400px;
+        border-radius: 6px;
+        line-height: 40px;
+    }
+
+
+    .thub p
+    {
+        min-height: 160px;
+        padding:10px;
+        border: 1px solid orange;
+        background-color: #DF7401;
+    }
+
+/* *_*_*_*_*_* FIN CSS PIERRE *_*_*_*_*_* */
+
