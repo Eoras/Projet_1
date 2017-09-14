@@ -53,6 +53,7 @@
         </div><!-- /.container-fluid -->
     </nav>
 
+<<<<<<< HEAD
     <div class="container accueil">
         <section class="row">
             <div class="col-xs-12"><img src="../images/Wild Games7.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
@@ -60,7 +61,6 @@
     </div>
 </div>
 <!-- FIN PARTIE STEVEN PREMIERE PAGE --> 
-
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
