@@ -79,7 +79,21 @@
         color: white;
         }
 
-    } /* FIN DU MEDIA */
+    } 
+    
+    @media (max-width: 1024px) 
+    
+    {         
+    .nav>li
+    {
+        position: relative;
+        padding: 20px 0px;
+        font-size: 25px;
+        color: white;
+    }
+
+
+    /* FIN DU MEDIA */
 
 
 
