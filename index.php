@@ -37,7 +37,7 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav text-center blink">
+                <ul class="nav navbar-nav text-center blink nav-a">
                     <li><a href="#"># ACCUEIL</a></li>
                     <li><a href="#"># JEUX</a></li>
                     <li><a href="#"># SNACKING-BAR</a></li>
