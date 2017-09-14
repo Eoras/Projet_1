@@ -1,5 +1,3 @@
-<?php session_start(); ?>
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -27,33 +25,6 @@
 
 <div class="container-fluid">
 
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <!-- Burger Button -->
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav text-center">
-                    <li><a href="#">ACCUEIL</a></li>
-                    <li><a href="#">JEUX</a></li>
-                    <li><a href="#">SNACKING-BAR</a></li>
-                    <li><a href="#">INFORMATIONS PRATIQUES</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-
-
     <!-- TRAVAIL PIERRE -->
     <section id="pierre">
 
@@ -64,21 +35,31 @@
             // Variables (en attente de BDD)
             if ($a == 1) {
                 $src_img = 'images/vignettes/arcade_1.jpg';
+                $description = 'Description 1';
             } elseif ($a == 2) {
                 $src_img = 'images/vignettes/arcade_2.jpg';
+                $description = 'Description 2';
             } elseif ($a == 3) {
                 $src_img = 'images/vignettes/arcade_3.jpg';
+                $description = 'Description 3';
             } elseif ($a == 4) {
                 $src_img = 'images/vignettes/babyfoot_1.jpg';
+                $description = 'Description 4';
             } elseif ($a == 5) {
                 $src_img = 'images/vignettes/babyfoot_2.jpg';
+                $description = 'Description 5';
             } elseif ($a == 6) {
                 $src_img = 'images/vignettes/billard_1.jpg';
+                $description = 'Description 6';
             } elseif ($a == 7) {
                 $src_img = 'images/vignettes/palet_1.jpg';
+                $description = 'Description 7';
             } elseif ($a == 8) {
                 $src_img = 'images/vignettes/pingpong_1.jpg';
+                $description = 'Description 8';
             }
+
+
 
 
             //  Affiche la row
@@ -92,7 +73,7 @@
                 <div class="thumbnail thub">
                     <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
                     <h3>BDD descriptif ' . $a . '</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p> ' . $description . '</p>
                 </div>
 
             </div> ';
@@ -107,12 +88,7 @@
 
     </section>
 
-
-    <!-- TRAVAIL PAUL -->
-    <section>
-
-
-    </section>
+    <!-- Fin Pierre -->
 
 </div>
 

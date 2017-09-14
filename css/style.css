@@ -1,44 +1,4 @@
 
-/* **************** */
-/*	STRUCTURE HTML	*/
-/* **************** */
-
-    html
-    {
-        background: url(../images/background1.jpg) no-repeat center fixed;
-        -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-        background-size: cover; /* version standardisée */
-    }
-
-	body
-	{
-		padding-top: 10px;
-	}
-
-    .nav>li
-    {
-        position: relative;
-        padding: 70px 20px;
-        font-size: 50px;
-        font-family: hacked;
-    }
-
-    .navbar
-    {
-        text-align: center;
-    }
-
-    .navbar-nav
-    {
-        display: inline-block;
-        float: none;
-    }
-
-
-/* **************** */
-/*	  Class & ID  	*/
-/* **************** */
-
     /* Pierre */
     #pierre
     {
@@ -69,31 +29,4 @@
         background-color: #DF7401;
     }
 
-
-
-
-    /* Paul */
-
-
-    /* Steven */
-
-
-
-
-/* **************** */
-/*	    AUTRE   	*/
-/* **************** */
-
-
-@font-face
-{
-    font-family: 'weekend';
-    src: url('../fonts/weekend.ttf') format('ttf');
-    src: url('../fonts/weekend.woff') format('woff');
-    src: url('../fonts/weekend.woff2') format('woff2');
-
-    font-family: 'hacked';
-    src: url('../fonts/hacked.ttf') format('ttf');
-    src: url('../fonts/hacked.woff') format('woff');
-    src: url('../fonts/hacked.woff2') format('woff2');
-}
+    /* Fin pierre */
