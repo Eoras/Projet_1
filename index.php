@@ -49,7 +49,7 @@
 
     <div class="container accueil">
         <section class="row">
-            <div class="col-xs-12"><img src="images/Wild Games7.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
+            <div class="col-xs-12"><img src="images/Logo_sans_verre.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
         </section>
     </div>
 </div>
