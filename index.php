@@ -83,146 +83,222 @@
         </div><!-- /.container-fluid -->
     </nav>
 </div>
+
 <div class="container-fluid backgroundgames scrollable-section" data-section-name="pierre">
 
     <div class="container-fluid marginnavb">
 
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_1">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade 1"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 1</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_2">
+                      <img src="images/vignettes/arcade_3.jpg" alt="arcade 2"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 2</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_3">
+                      <img src="images/vignettes/arcade_4.jpg" alt="arcade 3"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 3</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_4">
+                      <img src="images/vignettes/babyfoot_1.jpg" alt="arcade 4"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 4</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_5">
+                      <img src="images/vignettes/billard_1.jpg" alt="arcade 5"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 5</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_6">
+                      <img src="images/vignettes/pingpong_1.jpg" alt="arcade 6"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 6</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_7">
+                      <img src="images/vignettes/palet_1.jpg" alt="arcade 7"/>
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 7</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
               <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                  <div class="thumbnail thumbnailgame">
-                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                  <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_8">
+                      <img src="images/vignettes/arcade_2.jpg" alt="arcade 8" />
                       <div class="caption">
-                          <h3>Thumbnail label</h3>
-                          <p>Description 4</p>
+                          <h3>Activité 8</h3>
+                          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-          </div>   -->
-    <section id="#Pierre">
-
-        <!--
-
-      for ($a = 1; $a <= 8; $a++) {
-
-          // Variables (en attente de BDD)
-          if ($a == 1) {
-              $src_img = 'images/vignettes/arcade_1.jpg';
-              $description = 'Description 1';
-          } elseif ($a == 2) {
-              $src_img = 'images/vignettes/arcade_2.jpg';
-              $description = 'Description 2';
-          } elseif ($a == 3) {
-              $src_img = 'images/vignettes/arcade_3.jpg';
-              $description = 'Description 3';
-          } elseif ($a == 4) {
-              $src_img = 'images/vignettes/babyfoot_1.jpg';
-              $description = 'Description 4';
-          } elseif ($a == 5) {
-              $src_img = 'images/vignettes/babyfoot_2.jpg';
-              $description = 'Description 5';
-          } elseif ($a == 6) {
-              $src_img = 'images/vignettes/billard_1.jpg';
-              $description = 'Description 6';
-          } elseif ($a == 7) {
-              $src_img = 'images/vignettes/palet_1.jpg';
-              $description = 'Description 7';
-          } elseif ($a == 8) {
-              $src_img = 'images/vignettes/pingpong_1.jpg';
-              $description = 'Description 8';
-          }
-
-          //  Affiche la row
-          if ($a == 1) {
-              echo '<div class="row">';
-          }
-
-          // Affiche le contenu
-          echo '
-          <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="thumbnail thub">
-                  <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
-                  <h3>BDD descriptif ' . $a . '</h3>
-                  <p> ' . $description . '</p>
-              </div>
-
-          </div>';
-
-          // Ferme la row
-          if ($a == 8) {
-              echo '</div>';
-          }
-      }
-
-      ?>*/
-
-  </section>
-      <!-- Fin Pierre -->
+          </div>
     </div>
 </div>
 
+<!-- Modal  -->
+
+    <!-- 1 -->
+<div class="test">
+    <div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 1</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/arcade_1.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 2</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/arcade_3.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 3</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/arcade_4.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="modal fade" id="myModal_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 4</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/babyfoot_1.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="modal fade" id="myModal_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 5</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/billard_1.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="modal fade" id="myModal_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 6</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/pingpong_1.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7 -->
+    <div class="modal fade" id="myModal_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content ">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 7</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/palet_1.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 8 -->
+    <div class="modal fade" id="myModal_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h2 class="modal-title text-center" id="myModalLabel">Activité 8</h2>
+                </div>
+                <div class="modal-body">
+                    <img class="center center_img" src="images/vignettes/arcade_2.jpg" alt="arcade 1" />
+                    <p class="center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Fin Pierre -->
 
 <!-- DEBUT DU CODE DE PAUL -->
 <div class="container-fluid backgroundsnack scrollable-section" data-section-name="paul">
