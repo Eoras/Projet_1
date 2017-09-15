@@ -87,139 +87,139 @@
 
     <div class="container-fluid marginnavb">
 
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thumbnailgame">
-                    <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
-                    <div class="caption">
-                        <h3>Thumbnail label</h3>
-                        <p>Description 4</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    <!--  <section>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                  <div class="thumbnail thumbnailgame">
+                      <img src="images/vignettes/arcade_1.jpg" alt="arcade" class="imgarcade">
+                      <div class="caption">
+                          <h3>Thumbnail label</h3>
+                          <p>Description 4</p>
+                      </div>
+                  </div>
+              </div>
+          </div>   -->
+    <section id="#Pierre">
 
-          /**
+        <!--
 
-        for ($a = 1; $a <= 8; $a++) {
+      for ($a = 1; $a <= 8; $a++) {
 
-            // Variables (en attente de BDD)
-            if ($a == 1) {
-                $src_img = 'images/vignettes/arcade_1.jpg';
-                $description = 'Description 1';
-            } elseif ($a == 2) {
-                $src_img = 'images/vignettes/arcade_2.jpg';
-                $description = 'Description 2';
-            } elseif ($a == 3) {
-                $src_img = 'images/vignettes/arcade_3.jpg';
-                $description = 'Description 3';
-            } elseif ($a == 4) {
-                $src_img = 'images/vignettes/babyfoot_1.jpg';
-                $description = 'Description 4';
-            } elseif ($a == 5) {
-                $src_img = 'images/vignettes/babyfoot_2.jpg';
-                $description = 'Description 5';
-            } elseif ($a == 6) {
-                $src_img = 'images/vignettes/billard_1.jpg';
-                $description = 'Description 6';
-            } elseif ($a == 7) {
-                $src_img = 'images/vignettes/palet_1.jpg';
-                $description = 'Description 7';
-            } elseif ($a == 8) {
-                $src_img = 'images/vignettes/pingpong_1.jpg';
-                $description = 'Description 8';
-            }
+          // Variables (en attente de BDD)
+          if ($a == 1) {
+              $src_img = 'images/vignettes/arcade_1.jpg';
+              $description = 'Description 1';
+          } elseif ($a == 2) {
+              $src_img = 'images/vignettes/arcade_2.jpg';
+              $description = 'Description 2';
+          } elseif ($a == 3) {
+              $src_img = 'images/vignettes/arcade_3.jpg';
+              $description = 'Description 3';
+          } elseif ($a == 4) {
+              $src_img = 'images/vignettes/babyfoot_1.jpg';
+              $description = 'Description 4';
+          } elseif ($a == 5) {
+              $src_img = 'images/vignettes/babyfoot_2.jpg';
+              $description = 'Description 5';
+          } elseif ($a == 6) {
+              $src_img = 'images/vignettes/billard_1.jpg';
+              $description = 'Description 6';
+          } elseif ($a == 7) {
+              $src_img = 'images/vignettes/palet_1.jpg';
+              $description = 'Description 7';
+          } elseif ($a == 8) {
+              $src_img = 'images/vignettes/pingpong_1.jpg';
+              $description = 'Description 8';
+          }
 
-            //  Affiche la row
-            if ($a == 1) {
-                echo '<div class="row">';
-            }
+          //  Affiche la row
+          if ($a == 1) {
+              echo '<div class="row">';
+          }
 
-            // Affiche le contenu
-            echo '
-            <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <div class="thumbnail thub">
-                    <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
-                    <h3>BDD descriptif ' . $a . '</h3>
-                    <p> ' . $description . '</p>
-                </div>
+          // Affiche le contenu
+          echo '
+          <div class="yy col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="thumbnail thub">
+                  <img src="' . $src_img . '" alt="descriptif_activite_' . $a . '" />
+                  <h3>BDD descriptif ' . $a . '</h3>
+                  <p> ' . $description . '</p>
+              </div>
 
-            </div>';
+          </div>';
 
-            // Ferme la row
-            if ($a == 8) {
-                echo '</div>';
-            }
-        }
+          // Ferme la row
+          if ($a == 8) {
+              echo '</div>';
+          }
+      }
 
-        ?>*/
+      ?>*/
 
-    </section>   -->
-        <!-- Fin Pierre -->
+  </section>
+      <!-- Fin Pierre -->
     </div>
 </div>
 

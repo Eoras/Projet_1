@@ -143,7 +143,7 @@
     min-height: 100vh;
     margin:0;
     padding:0;
-    background: url(../images/salle-enfants-01-jpg.jpg) no-repeat center fixed;
+    background: url(../images/background3.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
@@ -171,7 +171,7 @@
 	min-height: 100vh;
     margin:0;
     padding:0;
-	background: url(../images/snack/Restaurant_Blur.jpg) no-repeat center fixed;
+	background: url(../images/background3.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
@@ -213,7 +213,11 @@
 
 {
     .thumbnail-u {
-        margin-top: 50px;
+        margin-top: 40px;
+    }
+
+    .marginnavb {
+        margin-top: 0px;
     }
 }
 
