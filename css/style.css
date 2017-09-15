@@ -23,7 +23,7 @@
     min-height: 100vh;
     margin:0;
     padding:0;
-    background: url(../images/background4.jpg) no-repeat center fixed;
+    background: url(../images/fondd.jpg) no-repeat center fixed;
     -webkit-background-size: cover; /* pour anciens Chrome et Safari */
     background-size: cover; /* version standardisée */
 }
@@ -77,24 +77,26 @@
         padding: 5px 0px;
         font-size: 30px;
         color: white;
-    }
+        }
 
-    .navbar-collapse
-    {
-        border: none;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px)
-
-{
+        .navbar-collapse
+        {
+            border: none;
+        }
+    } 
+    
+    @media (min-width: 768px) and (max-width: 1024px) 
+    
+    {     
     .nav-a>li
-    {
+        {
         position: relative;
         padding: 20px 0px;
-        font-size: 35px;
+        font-size: 30px;
         color: white;
     }
+
+
 
 
 
