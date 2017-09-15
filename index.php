@@ -41,7 +41,7 @@
                     <li><a href="#"><span onclick="$.scrollify.move('#steven');"># ACCUEIL</span></a></li>
                     <li><a href="#"><span onclick="$.scrollify.move('#pierre');"># JEUX</span></a></li>
                     <li><a href="#"><span onclick="$.scrollify.move('#paul');"># SNACKING-BAR</span></a></li>
-                    <li><a href="#"># INFOS PRATIQUES</a></li>
+                    <li><a href="#"><span onclick="$.scrollify.move('#infos');"># INFOS PRATIQUES</span></a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -77,7 +77,7 @@
                     <li><a href="#"><span onclick="$.scrollify.move('#steven');"># ACCUEIL</span></a></li>
                     <li><a href="#"><span onclick="$.scrollify.move('#pierre');"># JEUX</span></a></li>
                     <li><a href="#"><span onclick="$.scrollify.move('#paul');"># SNACKING-BAR</span></a></li>
-                    <li><a href="#"># INFOS PRATIQUES</a></li>
+                    <li><a href="#"><span onclick="$.scrollify.move('#infos');"># INFOS PRATIQUES</span></a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -243,9 +243,13 @@
                 </div>
             </div>
 
-            <div class="col-md-7 col-sm-12 col-xs-12">
+            <div class="col-md-7 col-sm-12 col-xs-12 marginauto">
                 <div class="panel panel-default panel-lgmargintop">
-                    <div class="panel-heading" ><span class="glyphicon glyphicon-glass">&nbsp;</span>SNACK BAR MENU</div>
+                    <div class="panel-heading">
+                        <h4>
+                            <span class="glyphicon glyphicon-glass">&nbsp</span>SNACK MENU
+                        </h4>
+                    </div>
 
                     <div class="panel-body">
 
@@ -253,56 +257,72 @@
 
                             <div class="col-md-6">
                                 <div class="panel panel-default">
-                                    <!-- Default panel contents -->
                                     <table class="table">
-                                        <th>Nos Soft Drinks</th><th>Prix</th>
+                                        <th>Nos Soft Drinks</th>
+                                        <th>Prix</th>
 
-                                        <tr><td>
+                                        <tr>
+                                            <td>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <img class="media-object thumb" src="images/snack/softs.png" alt="Softs">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4 class="media-heading">Les incontournables</h4>
+                                                        <h4 class="media-heading">
+                                                            <b>Les sodas</b>
+                                                        </h4>
                                                         <p>Pepso, Sprite, Coca, Coca Zero, Fanta</p>
                                                     </div>
                                                 </div>
-                                            </td><td>3,50€</td></tr>
+                                            </td>
+                                            <td>3,50€</td>
+                                        </tr>
 
-                                        <tr><td>
+                                        <tr>
+                                            <td>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <img class="media-object thumb" src="images/snack/cocktail3.png" alt="burger">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4 class="media-heading">Le Cola Citron Tonix</h4>
+                                                        <h4 class="media-heading">
+                                                            <b>Le Cola Citron Tonix</b>
+                                                        </h4>
                                                         <p>Fera friser vos cheveux en un rien de temps!</p>
                                                     </div>
                                                 </div>
-                                            </td><td>4,00€</td></tr>
+                                            </td>
+                                            <td>4,00€</td>
+                                        </tr>
 
-                                        <tr><td>
+                                        <tr>
+                                            <td>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <img class="media-object thumb" src="images/snack/cocktail2.png" alt="burger">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4 class="media-heading">La Fraisette</h4>
+                                                        <h4 class="media-heading">
+                                                            <b>La Fraisette</b>
+                                                        </h4>
                                                         <p>Jus de fraise et d'ananas</p>
                                                     </div>
                                                 </div>
-                                            </td><td>6,99€</td></tr>
+                                            </td>
+                                            <td>6,99€</td>
+                                        </tr>
                                     </table>
+
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="panel panel-default">
-                                    <!-- Default panel contents -->
                                     <table class="table">
                                         <th>Nos Bouchées</th><th>Prix</th>
 
-                                        <tr><td>
+                                        <tr>
+                                            <td>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <img class="media-object thumb" src="images/snack/sand1.png" alt="burger">
@@ -312,9 +332,11 @@
                                                         <p>Pain rustique, Steaks hachés, Cheddar fondu, Bacon</p>
                                                     </div>
                                                 </div>
-                                        </td><td>8,00€</td></tr>
-
-                                        <tr><td>
+                                            </td>
+                                            <td>8,00€</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <img class="media-object thumb" src="images/snack/pizza2.png" alt="burger">
@@ -324,9 +346,12 @@
                                                         <p>Sauce tomate, mozza</p>
                                                     </div>
                                                 </div>
-                                        </td><td>7,50€</td></tr>
+                                            </td>
+                                            <td>7,50€</td>
+                                        </tr>
 
-                                        <tr><td>
+                                        <tr>
+                                            <td>
                                                 <div class="media">
                                                     <div class="media-left">
                                                         <img class="media-object thumb" src="images/snack/sand2.png" alt="burger">
@@ -336,9 +361,11 @@
                                                         <p>Du pain à partager... et rien d'autre !</p>
                                                     </div>
                                                 </div>
-                                        </td><td>9,99€</td></tr>
-
+                                            </td>
+                                            <td>9,99€</td>
+                                        </tr>
                                     </table>
+
                                 </div>
                             </div>
 
@@ -354,7 +381,46 @@
         </div>
     </div>
 </div>
-<!-- FIN DU CODE DE PAUL -->
+<!-- FIN DU COkDE DE PAUL -->
+
+<!-- DEBUT DU FOOTER -->
+
+<div class="container-fluid backgroundinfos scrollable-section" data-section-name="infos">
+
+    <div class="row marginnavbinfos">
+
+        <div class="col-lg-4 col-md-6 infosmargpad">
+            <div id="map"></div>
+            <script>
+                function initMap() {
+                    var uluru = {lat: 47.893833, lng: 1.895089};
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 16,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyHrkusOlFw-odTR8Z-_29kScTXZJX3Vg&callback=initMap">
+            </script>
+        </div>
+        <div class="col-lg-8 col-md-6 infosmargpad">
+            <div class="thumbnailinfos">
+                sqdsd
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<!-- FIN DU FOOTER -->
+
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
