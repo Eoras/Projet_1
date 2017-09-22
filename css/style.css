@@ -149,7 +149,7 @@
 
     /* MODALES */
 
-    .center
+    .justify
     {
         text-align: justify;
         padding: 10px;
@@ -312,8 +312,6 @@
 
     .thumbnailinfos {
         border-left: none;
-
-    .thumbnailinfos {
         height: 300px;
     }
 }
