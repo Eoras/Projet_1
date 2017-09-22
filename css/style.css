@@ -180,13 +180,6 @@ p {
         padding: 10px;
     }
 
-    .center_img
-    {
-        width: 100%;
-        margin-left: 25px;
-        max-width: 530px;
-        max-height: 530px;
-    }
 
     @media screen and (max-width: 768px)
     {
@@ -264,6 +257,10 @@ p {
     .marginnavb {
         margin-top: 0px;
     }
+    .marginnavb-b {
+        margin-top: 20px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 992px)
@@ -319,7 +316,7 @@ p {
 
 .imglogofooter {
     width: 50vw;
-    padding-top: 8vw;
+    padding-top: 7vw;
 }
 
 .social:hover {
@@ -383,7 +380,6 @@ footer a:active {
     .imglogofooter {
         padding-top: 10vw;
     }
-
 
 }
 

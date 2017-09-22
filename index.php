@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -93,77 +93,77 @@
 
 <div class="container-fluid backgroundgames scrollable-section" data-section-name="pierre">
 
-    <div class="container-fluid marginnavb">
+    <div class="container-fluid marginnavb marginnavb-b">
 
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_1">
                       <img src="images/vignettes/arcade_1.jpg" alt="arcade 1"/>
                       <div class="caption">
-                          <h3>Activité 1</h3>
+                          <h3>Jeu 1</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_2">
                       <img src="images/vignettes/arcade_3.jpg" alt="arcade 2"/>
                       <div class="caption">
-                          <h3>Activité 2</h3>
+                          <h3>Jeu 2</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_3">
                       <img src="images/vignettes/arcade_4.jpg" alt="arcade 3"/>
                       <div class="caption">
-                          <h3>Activité 3</h3>
+                          <h3>Jeu 3</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_4">
                       <img src="images/vignettes/babyfoot_1.jpg" alt="arcade 4"/>
                       <div class="caption">
-                          <h3>Activité 4</h3>
+                          <h3>Jeu 4</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_5">
                       <img src="images/vignettes/billard_1.jpg" alt="arcade 5"/>
                       <div class="caption">
-                          <h3>Activité 5</h3>
+                          <h3>Jeu 5</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_6">
                       <img src="images/vignettes/pingpong_1.jpg" alt="arcade 6"/>
                       <div class="caption">
-                          <h3>Activité 6</h3>
+                          <h3>Jeu 6</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_7">
                       <img src="images/vignettes/palet_1.jpg" alt="arcade 7"/>
                       <div class="caption">
-                          <h3>Activité 7</h3>
+                          <h3>Jeu 7</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+              <div class="col-xs-12 col-sm-6 col-md-3">
                   <div class="thumbnail thumbnailgame" data-toggle="modal" data-target="#myModal_8">
                       <img src="images/vignettes/arcade_2.jpg" alt="arcade 8" />
                       <div class="caption">
-                          <h3>Activité 8</h3>
+                          <h3>Jeu 8</h3>
                           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,t enim ad minim veniam, quis nos commodo consequat. Duis auteit esse cillum dol...</p>
                       </div>
                   </div>
@@ -178,13 +178,13 @@
 <div class="test">
     <div class="modal fade" id="myModal_1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times</button>
-                    <h2 class="modal-title text-center" id="myModalLabel">Activité 1</h2>
+                    <h2 class="modal-title text-center" id="myModalLabel">Jeu 1</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/arcade_1.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/arcade_1.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -194,13 +194,13 @@
     <!-- 2 -->
     <div class="modal fade" id="myModal_2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 2</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/arcade_3.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/arcade_3.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -210,13 +210,13 @@
     <!-- 3 -->
     <div class="modal fade" id="myModal_3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 3</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/arcade_4.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/arcade_4.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -226,13 +226,13 @@
     <!-- 4 -->
     <div class="modal fade" id="myModal_4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 4</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/babyfoot_1.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/babyfoot_1.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -242,13 +242,13 @@
     <!-- 5 -->
     <div class="modal fade" id="myModal_5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 5</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/billard_1.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/billard_1.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -258,13 +258,13 @@
     <!-- 6 -->
     <div class="modal fade" id="myModal_6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 6</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/pingpong_1.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/pingpong_1.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -274,13 +274,13 @@
     <!-- 7 -->
     <div class="modal fade" id="myModal_7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content ">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 7</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/palet_1.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/palet_1.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -290,13 +290,13 @@
     <!-- 8 -->
     <div class="modal fade" id="myModal_8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content modalcolor">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     <h2 class="modal-title text-center" id="myModalLabel">Activité 8</h2>
                 </div>
                 <div class="modal-body">
-                    <img class="center_img" src="images/vignettes/arcade_2.jpg" alt="arcade 1" />
+                    <img class="center-block" src="images/vignettes/arcade_2.jpg" alt="arcade 1" />
                     <p class="justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                 </div>
             </div>
@@ -326,7 +326,7 @@
                 </div>
         </div>
         <div class="row">
-            <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+            <div class="col-lg-offset-2 col-lg-8 col-md12 col-sm-12 col-xs-12">
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <h3>
@@ -625,7 +625,7 @@
                                                     <div class="form-group">
                                                         <div class="input-group">
                                                             <span class="input-group-addon"><i class="glyphicon glyphicon-comment blue"></i></span>
-                                                            <textarea name="InputMessage" rows="6" class="form-control" type="text"></textarea>
+                                                            <textarea name="InputMessage" rows="6" class="form-control"></textarea>
                                                         </div>
                                                     </div>
                                                     <div class="">
