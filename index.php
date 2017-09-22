@@ -11,14 +11,17 @@
 
 	<!-- Custom styles for this template -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Bootstrap core CSS -->    
+	<!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <!-- FONT-AWESOME CSS Style -->
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
 
-<!-- DEBUT PARTIE STEVEN PREMIERE PAGE --> 
+<!-- DEBUT PARTIE STEVEN PREMIERE PAGE -->
 
 <div class="container-fluid fondsite scrollable-section" data-section-name="steven">
 
@@ -49,8 +52,12 @@
 
     <div class="container accueil">
         <section class="row">
-            <div class="col-xs-12"><img src="images/Logo_sans_verre.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
+            <div class="col-xs-12"><img src="images/Wild%20Games8.png" class="img_responsive center-block imglogo" alt="Wild Games" style="width:100%; height:auto; display:block; max-width:1000px"></div>
         </section>
+    </div>
+
+    <div class="flecheverslebas text-center">
+        <span class="glyphicon glyphicon-chevron-down" onclick="$.scrollify.move('#pierre');"></span>
     </div>
 </div>
 
@@ -304,27 +311,27 @@
 <div class="container-fluid backgroundsnack scrollable-section" data-section-name="paul">
 
     <div class="container-fluid marginnavb">
+
         <div class="row">
-
-            <div class="col-md-3 col-md-offset-1 col-sm-12 col-xs-12">
-                <div class="col-md-12 col-sm-5 col-md-offset-0 col-sm-offset-1 col-xs-8 col-xs-offset-2">
-                    <a href="#" class="thumbnail thumbnail-u">
+                <div class="col-md-4 col-md-offset-2 col-sm-6 col-sm-offset-0">
+                    <figure class="thumbnail thumbnail-u">
                         <img src="images/snack/fbd4f936a952285a19f866b94bd65c1278a06659.jpeg" alt="test">
-                    </a>
+                    </figure>
                 </div>
-                <div class="col-md-12 col-sm-5 hidden-xs" id="snackbar">
-                    <a href="#" class="thumbnail">
-                        <img src="images/snack/snaks.jpg" alt="test">
-                    </a>
-                </div>
-            </div>
 
-            <div class="col-md-7 col-sm-12 col-xs-12 marginauto">
-                <div class="panel panel-default panel-lgmargintop">
+                <div class="col-md-4 col-sm-6 hidden-xs" id="snackbar">
+                    <figure class="thumbnail thumbnail-u">
+                        <img src="images/snack/snaks.jpg" alt="test">
+                    </figure>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 col-sm-12 col-xs-12">
+                <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4>
-                            <span class="glyphicon glyphicon-glass">&nbsp</span>SNACK MENU
-                        </h4>
+                        <h3>
+                            <b><span class="glyphicon glyphicon-glass">&nbsp</span>SNACK MENU</b>
+                        </h3>
                     </div>
 
                     <div class="panel-body">
@@ -334,8 +341,8 @@
                             <div class="col-md-6">
                                 <div class="panel panel-default">
                                     <table class="table">
-                                        <th>Nos Soft Drinks</th>
-                                        <th>Prix</th>
+                                        <th><h3><b>Nos Soft Drinks</b></h3></th>
+                                        <th><h3><b>Prix</b></h3></th>
 
                                         <tr>
                                             <td>
@@ -388,14 +395,14 @@
                                             <td>6,99€</td>
                                         </tr>
                                     </table>
-
                                 </div>
                             </div>
 
                             <div class="col-md-6">
                                 <div class="panel panel-default">
                                     <table class="table">
-                                        <th>Nos Bouchées</th><th>Prix</th>
+                                        <th><h3><b>Nos Bouchées</b></h3></th>
+                                        <th><h3><b>Prix</b></h3></th>
 
                                         <tr>
                                             <td>
@@ -404,7 +411,9 @@
                                                         <img class="media-object thumb" src="images/snack/sand1.png" alt="burger">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4 class="media-heading">Burger Foreach</h4>
+                                                        <h4 class="media-heading">
+                                                            <b>Burger Foreach</b>
+                                                        </h4>
                                                         <p>Pain rustique, Steaks hachés, Cheddar fondu, Bacon</p>
                                                     </div>
                                                 </div>
@@ -418,7 +427,9 @@
                                                         <img class="media-object thumb" src="images/snack/pizza2.png" alt="burger">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4 class="media-heading">Pizza Regex</h4>
+                                                        <h4 class="media-heading">
+                                                            <b>Pizza Regex</b>
+                                                        </h4>
                                                         <p>Sauce tomate, mozza</p>
                                                     </div>
                                                 </div>
@@ -433,7 +444,9 @@
                                                         <img class="media-object thumb" src="images/snack/sand2.png" alt="burger">
                                                     </div>
                                                     <div class="media-body">
-                                                        <h4 class="media-heading">Bouchées Git</h4>
+                                                        <h4 class="media-heading">
+                                                            <b>Bouchées Git</b>
+                                                        </h4>
                                                         <p>Du pain à partager... et rien d'autre !</p>
                                                     </div>
                                                 </div>
@@ -461,45 +474,212 @@
 
 <!-- DEBUT DU FOOTER -->
 
-<div class="container-fluid backgroundinfos scrollable-section" data-section-name="infos">
+<footer class="container-fluid backgroundinfos scrollable-section " data-section-name="infos">
 
-    <div class="row marginnavbinfos">
-
-        <div class="col-lg-4 col-md-6 infosmargpad">
-            <div id="map"></div>
-            <script>
-                function initMap() {
-                    var uluru = {lat: 47.893833, lng: 1.895089};
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 16,
-                        center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                        position: uluru,
-                        map: map
-                    });
-                }
-            </script>
-            <script async defer
-                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyHrkusOlFw-odTR8Z-_29kScTXZJX3Vg&callback=initMap">
-            </script>
+    <div class="row">
+        <div class="col-sm-12 hidden-xs hidden-sm">
+            <img src="images/Wild%20Games8.png" alt="WildGame" class="imglogofooter center-block" />
         </div>
-        <div class="col-lg-8 col-md-6 infosmargpad">
-            <div class="thumbnailinfos">
-                sqdsd
-            </div>
-        </div>
-
     </div>
 
+    <div class="row">
+        <div class="footer">
+            <div class="panel-heading footertransp">
+                <h3>
+                    <b><span class="glyphicon glyphicon-user">&nbsp</span>INFOS PRATIQUES</b>
+                </h3>
+            </div>
 
-</div>
+            <div class="panel-body">
+
+                <div class="row footerinfos">
+                    <div class="col-md-6">
+                        <div id="map"></div>
+                        <script>
+                            function initMap() {
+                                var uluru = {lat: 47.893833, lng: 1.895089};
+                                var map = new google.maps.Map(document.getElementById('map'), {
+                                    zoom: 16,
+                                    center: uluru
+                                });
+                                var marker = new google.maps.Marker({
+                                    position: uluru,
+                                    map: map
+                                });
+                            }
+                        </script>
+                        <script async defer
+                                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCyHrkusOlFw-odTR8Z-_29kScTXZJX3Vg&callback=initMap">
+                        </script>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <h1 class="text-center"><b>WILD GAME</b></h1>
+                        <br/>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p><span class="glyphicon glyphicon-map-marker">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <adresse><p>1 Avenue du Champ de Mars
+                                        <br/>45100 - Orléans</p>
+                                    </adresse>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><span class="glyphicon glyphicon-earphone">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <p>02 38 69 80 80</tel></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><span class="glyphicon glyphicon-time">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <p><u>Horaires:</u><br/>Du mardi au dimanche<br/>de 12h à 22h</p>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <h2 class="text-center">
+                            <b>
+                                <p>
+                                    <span class="fa fa-facebook social" aria-hidden="true">&nbsp &nbsp</span>
+                                    <span class="fa fa-twitter social" aria-hidden="true">&nbsp &nbsp</span>
+                                    <span class="fa fa-google-plus social" aria-hidden="true"></span>
+                                </p>
+                            </b>
+                        </h2>
+                        <br/>
+                        <table>
+                            <tr>
+                                <td>
+                                    <p><span class="glyphicon glyphicon-envelope">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <p><a href="#" data-toggle="modal" data-target="#myModalContact">Nous contacter</a></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><span class="fa fa-wheelchair" aria-hidden="true">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <p>Accès handicapés</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><span class="glyphicon glyphicon-signal">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <p>Wifi Gratuit</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p><span class="glyphicon glyphicon-file">&nbsp</span></p>
+                                </td>
+                                <td>
+                                    <p><a href="#" data-toggle="modal" data-target="#myModalMentionsLegales">Mentions légales</a></p>
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- Modal de contact -->
+                        <div class="modal fade" id="myModalContact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content modalcolor">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel">Nous contacter</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="well modalcolor">
+                                            <form action="" method="POST">
+                                                <div class="panel-body">
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="glyphicon glyphicon-user blue"></i></span>
+                                                            <input type="text" name="name" class="form-control" placeholder="Nom et Prénom" autofocus="autofocus">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="glyphicon glyphicon-envelope blue"></i></span>
+                                                            <input type="email" name="InputEmail" class="form-control" placeholder="Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="glyphicon glyphicon-phone blue"></i></span>
+                                                            <input type="number" name="InputCno" class="form-control" placeholder="Téléphone">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="glyphicon glyphicon-comment blue"></i></span>
+                                                            <textarea name="InputMessage" rows="6" class="form-control" type="text"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="">
+                                                        <button type="submit" class="btn btn-info pull-right">Envoyer <span class="glyphicon glyphicon-send"></span></button>
+                                                        <button type="reset" value="Reset" name="reset" class="btn">Réinitialiser <span class="glyphicon glyphicon-refresh"></span></button>
+                                                        <button type="button" class="btn" data-dismiss="modal">Annuler <span class="glyphicon glyphicon-remove"></span></button>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal de contact -->
+                        <!-- Modal Mentions légales -->
+                        <div class="modal fade" id="myModalMentionsLegales" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog modal-lg" role="document">
+                                <div class="modal-content modalcolor">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel">Mentions légales</h2>
+                                    </div>
+                                    <div class="modal-body">
+                                       <div class="well modalcolor">
+                                           <p>Ici les mentions légales ...</p>
+                                       </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fin Modal Mentions légales -->
+                    </div>
+                </div>
+
+            </div>
+            <div class="panel-footer footertransp text-center">
+                <h6><i>© 2017 WILD-GAME | Fait avec du Bon Sens par Seven, Pierre et Paul</i></h6>
+            </div>
+        </div>
+    </div>
+
+</footer>
 
 <!-- FIN DU FOOTER -->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js" type="text/javascript"></script>
 <script src="js/Scrollify/jquery.scrollify.min.js" type="text/javascript"></script>
