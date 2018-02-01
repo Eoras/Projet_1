@@ -8,7 +8,7 @@
 
 > Wild Game is an arcade on Orleans that wants to increase its visibility on the internet. 
 
-> >![Image of Wild-Circus](https://raw.githubusercontent.com/Eoras/WCS_PROJECT_1_WildGame/master/images/preview.jpg)
+> >![Image of Wild-Circus](https://raw.githubusercontent.com/Eoras/WCS_PROJECT_1_WildGame/master/images/preview.png)
 
 ----
 ## Details
